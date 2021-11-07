@@ -3,8 +3,8 @@
     "composite": true,
     "target": "es5",
     "module": "commonjs",
+    "lib": [],
     "moduleResolution": "node",
-    "outDir": "lib",
     "declaration": true,
     "sourceMap": true,
     "esModuleInterop": true,
@@ -19,8 +19,7 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "allowUnusedLabels": true,
-    "allowUnreachableCode": true,
-    "skipLibCheck": true
+    "allowUnreachableCode": true
   },
   "exclude": ["**/*.test.ts", "**/lib"]
 }
