@@ -1,6 +1,5 @@
 {
   "name": "ts-monorepo-template",
-  "version": "1.0.0",
   "author": "Charles D'Angelo <c.g.dangelo@gmail.com>",
   "license": "MIT",
   "workspaces": [

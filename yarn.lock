@@ -909,6 +909,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@project/main@workspace:^, @project/main@workspace:packages/main":
+  version: 0.0.0-use.local
+  resolution: "@project/main@workspace:packages/main"
+  languageName: unknown
+  linkType: soft
+
+"@project/test@workspace:packages/test":
+  version: 0.0.0-use.local
+  resolution: "@project/test@workspace:packages/test"
+  dependencies:
+    "@project/main": "workspace:^"
+  languageName: unknown
+  linkType: soft
+
 "@sinonjs/commons@npm:^1.7.0":
   version: 1.8.3
   resolution: "@sinonjs/commons@npm:1.8.3"
@@ -3979,12 +3993,6 @@ __metadata:
   checksum: f97f499f898f23e4585742138a22f22526254fdba6d75d41a1c2526b3b6cc5747ef59c5612ba7375f42aca4f8461950e925ba08c991ead0651b4918b7c978297
   languageName: node
   linkType: hard
-
-"main@workspace:packages/main":
-  version: 0.0.0-use.local
-  resolution: "main@workspace:packages/main"
-  languageName: unknown
-  linkType: soft
 
 "make-dir@npm:^3.0.0":
   version: 3.1.0

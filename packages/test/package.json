@@ -1,0 +1,10 @@
+{
+  "name": "@project/test",
+  "version": "0.0.0",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@project/main": "workspace:^"
+  }
+}
